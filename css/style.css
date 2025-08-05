@@ -225,6 +225,9 @@ header.sticky {
   font-weight: 600;
   font-size: 19px;
   line-height: 42px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .exp-area p span {
@@ -528,7 +531,6 @@ form .send-btn:hover {
   transition: all 0.5s ease;
   cursor: pointer;
   max-height: 500px;
-  /* max-width: 500px; */
   margin: auto;
   margin-top: 4.2rem;
 }
@@ -697,6 +699,17 @@ form .send-btn:hover {
   .skill h3{
     font-size: .9rem;
   }
+  .hero{
+    margin-top: 2rem;
+    height: 100vh;
+  }
+  .exp-area p{
+    font-size: .9rem;
+    text-align: left;
+  }
+  .exp-area p span{
+    text-align: right;
+  }
 }
 
 @media (max-width: 470px) {
@@ -728,14 +741,4 @@ form .send-btn:hover {
   }
 }
 
-/* Skills */
-/* #skills {
-  display: flex;
-  padding: 40px 20px;
-  background: #111;
-  color: #fff;
-  max-width: 800px;
-  margin: auto;
-  border-radius: 10px;
-} */
 
